@@ -7,8 +7,8 @@ html {
 }
 
 *,
- *::before,
- *::after {
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -76,7 +76,7 @@ main {
 }
 
 main p {
-  margin-bottom: 0 0 1.5rem;
+  margin: 0 0 1.5rem;
   font-size: 1.125rem;
 }
 
@@ -109,9 +109,9 @@ section ul li {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-areas:
-  "top"
-  "middle"
-  "bottom";
+    "top"
+    "middle"
+    "bottom";
 }
 
 section h3 {
@@ -149,7 +149,7 @@ div strong {
 section div img {
   width: 1em;
   height: 1em;
-  margin-right: .rem;
+  margin-right: .5em;
 }
 
 footer {
