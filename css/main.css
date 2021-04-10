@@ -1,10 +1,11 @@
 html {
   box-sizing: border-box;
+
 }
 
 *,
-*::before,
-*::after {
+ *::before,
+ *::after {
   box-sizing: inherit;
 }
 
@@ -13,7 +14,7 @@ body {
 }
 
 img {
-  width: 100%
+  width: 100%;
   display: block;
 }
 
@@ -23,6 +24,6 @@ header {
   grid-template-rows: auto 1.5rem;
   grid-template-areas:
   "left center right"
-  ". center .";
+  ".   center   .";
   margin-bottom: 1.5rem;
 }
